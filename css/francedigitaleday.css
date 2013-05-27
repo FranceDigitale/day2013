@@ -1,261 +1,108 @@
-#nav {
-  padding: 10px 0 5px 0;
-  background-color: rgba(224, 132, 23, 0.8);
-  color: #FFFFFF;
+@font-face {
+  font-family: 'kelson_sansregular';
+  src: url('/font/kelson_sans_regular.eot');
+  src: url('/font/kelson_sans_regular.eot?#iefix') format('embedded-opentype'),
+    url('/font/kelson_sans_regular.woff') format('woff'),
+    url('/font/kelson_sans_regular.ttf') format('truetype'),
+    url('/font/kelson_sans_regular.svg#kelson_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-#nav ul li {
-  padding-left: 25px;
-  padding-right: 25px;
+body {
+  background-color: #acd0f1;
 }
 
-#nav a {
-  color: #FFFFFF;
+#header {
+  background-image: url('/img/bandeau/background.jpg');
+  height: 546px;
 }
 
-.white {
-  color: #FFFFFF;
+#header .title {
+  background-color : rgba(172,208,241,0.8);
+  width: 100%;
+  height: 109px;
 }
 
-.center {
+#header .title .logo {
   text-align: center;
 }
 
-.space0 {
-  margin-top: 0 !important;
-}
-.spaceL150 {
-  margin-left: 150px;
+#header .title .logo img {
+  margin-top: 23px;
+  z-index: 100;
 }
 
-.spaceB20 {
-  margin-bottom: 20px;
-}
-
-.spaceB40 {
-  margin-bottom: 40px !important;
-}
-
-.spaceT40 {
-  margin-top: 40px;
-}
-
-#header .logo {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 44px;
-  font-weight: 300;
-  padding-top: 10px;
-  color: #057FCC;
-  letter-spacing: 2px;
-}
-
-#header ul {
-  font-family: 'Rokkitt', serif;
-  margin-top: 30px;
-}
-
-#header ul li {
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 19px;
-}
-
-#header ul li a {
-  color: #057FCC;
-}
-
-h1 {
-  font-family: 'Rokkitt', serif;
-  font-weight: 300;
-  font-size: 34px;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 10px;
-  color: #E08417;
-  margin-top: -2px;
-}
-
-h2 {
-  font-family: 'Rokkitt', serif;
-  color: #0f93d7;
-  font-size: 44px;
-  font-weight: 300;
-  color: #057FCC;
-}
-
-h3 {
-  color: #f28730;
-  font-weight: 300;
-  font-family: 'Rokkitt', serif;
-  font-size: 24px;
-}
-
-.step.line2 {
-  padding-top: 55px !important;
-  padding-bottom: 55px !important;
-}
-
-.step.line3 {
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
-}
-
-#image {
-  background-image: url('../img/fleurpellerin.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: right bottom;
-  height: 550px;
-}
-
-.step {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.step div {
-  color: #E08417;
-}
-
-.step-text {
+#header .nav {
   font-size: 16px;
-  font-weight: 300;
-  padding-top: 25px;
-}
-
-.step img {
-  width: 85px;
-  height: 85px;
-}
-
-#programme {
-  padding-top: 20px;
-}
-
-#programme ul li {
-  margin-bottom: 40px;
-}
-
-#programme .small {
-  font-size: 24px;
-  color: #CCCCCC;
-}
-
-#programme h3 {
-  color: #E08417;
-  margin-bottom: 20px;
-  font-size: 44px;
-  font-weight: 300;
-}
-
-#programme h4 {
-  font-size: 24px;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
-
-#programme .speaker,
-#programme .title {
-  color: #999999;
-  margin-top: 10px;
-  font-weight: 300;
+  font-family: 'kelson_sansregular';
+  background-color: #ffffff;
+  color: #272932;
+  height: 36px;
+  margin: -29px 0 0 0;
   text-align: center;
+  text-transform: uppercase;
 }
 
-#programme .title {
-  font-size: 12px;
+#header .nav li {
+  padding: 10px 13px 3px 13px;
+  margin-left: 5px;
 }
 
-#staff {
-  padding-top: 20px;
+#header .nav li:first-child {
+  margin-left: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  #header .logo {
-    font-size: 40px;
-  }
-  
-  h1 {
-    font-size: 26px;
-  }
-  
-  #header ul li {
-    font-size: 14px;
-  }
-
-  #image {
-    height: 250px;
-  }
+#header .nav li.logo-left {
+  margin-right: 75px;
 }
 
-@media (max-width: 767px) {
-
-  #nav ul li {
-    font-size: 14px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  
-  #header .logo {
-    font-size: 40px;
-  }
-  
-  h1 {
-    font-size: 26px;
-  }
- 
-  #image {
-    height: 250px;
-  }
-  
-  .offset1 {
-    margin-left: 0 !important;
-  }
-  
-  #lieu img {
-    margin-bottom: 20px;
-  }
-
+#header .nav li.logo-right {
+  margin-left: 75px;
 }
 
-@media (max-width: 480px) {
-
-  #nav ul.inline li {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  #header .logo {
-    font-size: 24px;
-  }
-  
-  h1 {
-    font-size: 16px;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    margin-bottom: 0 !important;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  h3 {
-    font-size: 30px !important;
-  }
-  
-  h4,
-  h4 .small {
-    font-size: 16px !important;
-  }
-  
-  .offset1 {
-    margin-left: 0 !important;
-  }
-  
-  .spaceT40 {
-    margin-top: 20px !important;
-  }
-
+#header .nav li.active {
+  color: #f87f2e;
+  border-bottom: 3px solid #f87f2e;
 }
+
+#header .nav li.register {
+  color: #ffffff;
+  background-color: #f87f2e;
+  padding-bottom: 6px;
+}
+
+#header .baseline {
+  font-family: 'kelson_sansregular';
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 56px;
+  text-shadow: 0 0 20px #999;
+}
+
+#header .baseline .name {
+  margin-top: 56px;
+  font-size: 40px;
+}
+
+#header .baseline .description {
+  font-size: 26px;
+  margin-top: 28px;
+}
+
+#header .baseline .register {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#header .baseline .date {
+  margin-bottom: 20px;
+}
+
+#header .sponsors {
+  text-align: center;
+  height: 90px;
+  background-color: #ffffff;
+}
+
