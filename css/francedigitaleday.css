@@ -14,8 +14,11 @@ body {
 }
 
 #header {
-  background-image: url('./../img/bandeau/background.jpg');
-  height: 546px;
+  background: url('./../img/bandeau/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #header .title {
@@ -25,6 +28,7 @@ body {
 }
 
 #header .title .logo {
+  height: 109px;
   text-align: center;
 }
 
@@ -39,9 +43,12 @@ body {
   background-color: #ffffff;
   color: #272932;
   height: 36px;
-  margin: -29px 0 0 0;
   text-align: center;
   text-transform: uppercase;
+}
+
+#header .nav {
+  margin: 0;
 }
 
 #header .nav li {
@@ -105,3 +112,9 @@ body {
   background-color: #ffffff;
 }
 
+/*************************************/
+
+#thematiques {
+  background-color: #ffffff;
+  border-top: solid 3px #1a7dd2;
+}
