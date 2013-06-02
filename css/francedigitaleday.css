@@ -17,6 +17,10 @@ body {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 #header {
   background: url('./../img/bandeau/background.jpg') no-repeat center center;
   -webkit-background-size: cover;
@@ -162,7 +166,8 @@ body {
 /*************************************/
 
 #programme,
-#inscription {
+#inscription,
+#delegations {
   font-family: 'kelson_sansregular';
   background-color: #acd0f1;
   border-top: solid 3px #1a7dd2;
@@ -174,7 +179,8 @@ body {
 #programme .title,
 #lieu .title,
 #inscription .title,
-#sponsors .title {
+#sponsors .title,
+#delegations .title {
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -185,7 +191,8 @@ body {
 #programme .separator,
 #lieu .separator,
 #inscription .separator,
-#sponsors .separator {
+#sponsors .separator,
+#delegations .separator {
   color: #f87f2e;
   text-align: center;
   font-size: 40px;
@@ -194,7 +201,8 @@ body {
 }
 
 #programme .container,
-#inscription .container {
+#inscription .container,
+#delegations .container {
   background-color: #ffffff;
 }
 
@@ -292,4 +300,51 @@ body {
 
 #sponsors {
   padding-bottom: 70px;
+}
+
+/*************************************/
+
+#delegations .slot {
+  margin: 20px 0;
+}
+
+#delegations .city {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#delegations .startup {
+  margin: 5px;
+  border: 1px solid #acd0f1;
+}
+
+#delegations .details {
+  padding: 20px 10px;
+  background-color: #1a7dd2;
+  color: #ffffff;
+  text-align: left;
+  height: 118px;
+}
+
+#delegations .details .name {
+  margin-bottom: 25px;
+}
+
+#delegations .details .description {
+  font-size: 12px;
+}
+
+/*************************************/
+
+#footer {
+  height: 60px;
+  background-color: #272932;
+  border-top: 3px solid #ffffff;
+  color: #ffffff;
+  font-family: 'kelson_sansregular';
+  font-size: 12px;
+}
+
+#footer .container {
+  margin-top: 24px;
 }
