@@ -157,7 +157,8 @@ body {
 
 /*************************************/
 
-#programme {
+#programme,
+#inscription {
   font-family: 'kelson_sansregular';
   background-color: #acd0f1;
   border-top: solid 3px #1a7dd2;
@@ -166,7 +167,8 @@ body {
   padding-bottom: 70px;
 }
 
-#programme .title {
+#programme .title,
+#inscription .title {
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -174,7 +176,8 @@ body {
   font-size: 40px;
 }
 
-#programme .separator {
+#programme .separator,
+#inscription .separator {
   color: #f87f2e;
   text-align: center;
   font-size: 40px;
@@ -182,7 +185,8 @@ body {
   margin-bottom: 10px;
 }
 
-#programme .container {
+#programme .container,
+#inscription .container {
   background-color: #ffffff;
 }
 
@@ -284,4 +288,10 @@ body {
 #lieu .acces strong {
   text-transform: uppercase;
   font-size: 12px;
+}
+
+/*************************************/
+
+#inscription .container {
+  padding: 30px 20px 0px 20px;
 }
