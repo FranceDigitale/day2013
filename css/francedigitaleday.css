@@ -239,10 +239,24 @@ body {
   padding: 10px 0 0 0;
 }
 
+#programme .hour-title {
+  clear: both;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+#programme .slot-separator {
+  float: left;
+  width: 45%;
+  height: 35px;
+  border-bottom: 1px solid #bababa;
+}
+
 #programme .hour {
+  float: left;
+  width: 10%;
   font-size: 18px;
   margin-top: 25px;
-  position: relative;
 }
 
 #programme .theme {
@@ -328,7 +342,22 @@ body {
   margin: 20px 0;
 }
 
+#delegations .city-title {
+  clear: both;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+#delegations .slot-separator {
+  float: left;
+  width: 45%;
+  height: 12px;
+  border-bottom: 1px solid #bababa;
+}
+
 #delegations .city {
+  float: left;
+  width: 10%;
   font-size: 18px;
   margin-bottom: 20px;
 }
