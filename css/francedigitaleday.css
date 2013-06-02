@@ -114,7 +114,8 @@ body {
 
 /*************************************/
 
-#thematiques {
+#thematiques,
+#staff {
   font-family: 'kelson_sansregular';
   background-color: #ffffff;
   border-top: solid 3px #1a7dd2;
@@ -123,7 +124,8 @@ body {
   padding-bottom: 70px;
 }
 
-#thematiques .title {
+#thematiques .title,
+#staff .title {
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -131,7 +133,8 @@ body {
   font-size: 40px;
 }
 
-#thematiques .separator {
+#thematiques .separator,
+#staff .separator {
   color: #f87f2e;
   text-align: center;
   font-size: 40px;
@@ -139,13 +142,15 @@ body {
   margin-bottom: 10px;
 }
 
-#thematiques .module h3 {
+#thematiques .module h3,
+#staff .module h3 {
   text-align: center;
   text-transform: uppercase;
   font-size: 26px;
 }
 
-#thematiques .module .picto {
+#thematiques .module .picto,
+#staff .module .picto {
   text-align: center;
   margin: 10px 0 35px 0;
 }
@@ -228,7 +233,6 @@ body {
   border-top: solid 3px #1a7dd2;
   color: #1a7dd2;
   padding-top: 62px;
-  padding-bottom: 70px;
 }
 
 
