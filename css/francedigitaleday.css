@@ -81,10 +81,26 @@ body {
   border-bottom: 3px solid #f87f2e;
 }
 
+#header .nav li a {
+  color: #272932;
+}
+
+#header .nav li a:hover {
+  background: none;
+}
+
 #header .nav li.register {
   color: #ffffff;
   background-color: #f87f2e;
   padding-bottom: 6px;
+}
+
+#header .nav li.register a {
+  color: #ffffff;
+}
+
+#header .nav li.register a:hover {
+  background: none;
 }
 
 #header .baseline {
@@ -117,7 +133,11 @@ body {
 #header .sponsors {
   text-align: center;
   height: 90px;
-  background-color: #ffffff;
+  background-color : rgba(255,255,255,0.8);
+}
+
+#header .sponsors img {
+  margin-top: 6px;
 }
 
 /*************************************/
@@ -345,6 +365,11 @@ body {
   font-size: 12px;
 }
 
-#footer .container {
+#footer .copyright,
+#footer .contact {
   margin-top: 24px;
+}
+
+#footer .logo {
+  margin-top: 13px;
 }
