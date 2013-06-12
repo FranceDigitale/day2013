@@ -79,6 +79,7 @@ body {
 }
 
 #header .nav li {
+  position: relative;
   padding: 10px 13px 3px 13px;
   margin-left: 5px;
 }
@@ -151,12 +152,17 @@ body {
 
 #header .sponsors {
   text-align: center;
-  height: 90px;
+/*  height: 90px;*/
   background-color : rgba(255,255,255,0.8);
 }
 
 #header .sponsors img {
   margin-top: 6px;
+  max-width: 170px;
+}
+
+#header .sponsors img.premium {
+  max-width: 370px;
 }
 
 /*************************************/
