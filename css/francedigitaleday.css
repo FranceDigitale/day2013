@@ -127,7 +127,7 @@ body {
   font-family: 'kelson_sansregular';
   color: #ffffff;
   text-align: center;
-  margin-top: 56px;
+  margin: 56px 0;
   text-shadow: 0 0 20px #999;
 }
 
@@ -359,6 +359,14 @@ body {
 
 #sponsors {
   padding-bottom: 70px;
+}
+
+#sponsors .img370 img {
+  max-width: 370px;
+}
+
+#sponsors .img270 img {
+  max-width: 270px;
 }
 
 /*************************************/
